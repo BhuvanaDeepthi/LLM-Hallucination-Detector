@@ -1,0 +1,27 @@
+# Python virtual environment & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Data & Model caches
+data/uploads/*
+data/indexes/*
+data/reports/*
+!data/uploads/.gitkeep
+!data/indexes/.gitkeep
+!data/reports/.gitkeep
+*.db
+*.sqlite3
+
+# Environment secrets
+.env
+
+# Testing & IDE
+.pytest_cache/
+.coverage
+htmlcov/
+.vscode/
+.idea/
